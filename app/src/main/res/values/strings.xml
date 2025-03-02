@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Manga</string>
+    <string name="aboutApp">About App</string>
+    <string name="btnGetStarted">Get Started</string>
+    <string name="firstDescription">Discover and read popular mangas in one place! Stay updated, explore genres,
+                                    and enjoy a seamless reading experience. Your manga journey starts here!</string>
+    <string name="n1" />
+    <string name="n2" />
+    <string name="n3" />
+    <string name="n4" />
+</resources>
