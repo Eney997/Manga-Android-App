@@ -3,11 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="darkGrey">#121212</color>
-
-
+    <color name="red">#ff4b4b</color>
     <color name="grey">#676060</color>
-    <color name="primaryDark">#FAC110</color>
-    <color name="primary">#FAC110</color>
-    <color name="accent">#03DAC5</color>
-
+    <color name="darkBlue">#133e7c</color>
 </resources>
