@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey"
+    tools:context=".RegistrationWindowActivity">
+
+
+
+    <ImageView
+        android:id="@+id/grlImage"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/registrationimage"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:layout_marginStart="3sp"
+            android:id="@+id/nameError"
+            android:textSize="17sp"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="350dp"
+            android:layout_height="66dp"
+            android:autofillHints=""
+            android:hint="@string/enterName"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:layout_marginStart="3sp"
+            android:id="@+id/lastNameError"
+            android:textSize="17sp"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/lastNameInput"
+            android:layout_width="350dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:hint="@string/enterLastName"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:layout_marginStart="3sp"
+            android:id="@+id/userNameError"
+            android:textSize="17sp"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/userNameInput"
+            android:layout_width="350dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:hint="@string/createUserName"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:layout_marginStart="3sp"
+            android:id="@+id/passwordError"
+            android:textSize="17sp"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="350dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints=""
+            android:hint="@string/createPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="22sp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/regSubmitButton"
+            android:layout_width="155dp"
+            android:layout_height="70dp"
+            android:text="@string/submitButton"
+            android:textSize="19sp"
+            android:backgroundTint="@color/red"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/regGoBackButton"
+            android:layout_width="155dp"
+            android:layout_height="70dp"
+            android:text="@string/goBackToMainButton"
+            android:textSize="19sp"
+            android:backgroundTint="@color/red"
+            android:layout_marginStart="105dp"
+            />
+
+    </GridLayout>
+
+
+</RelativeLayout>

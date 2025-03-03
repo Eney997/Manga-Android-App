@@ -9,9 +9,17 @@
     <string name="logIn">Log in</string>
     <string name="register">Registration</string>
 
+    <string name="enterName">Enter Name</string>
+    <string name="enterLastName">Enter LastName</string>
+    <string name="createUserName">Create UserName</string>
+    <string name="createPassword">Create Password</string>
+    <string name="submitButton">Submit</string>
+    <string name="goBackToMainButton">Back</string>
+
     <string name="n1" />
     <string name="n2" />
     <string name="n3" />
     <string name="n4" />
     <string name="mangaLine">TODO</string>
+    <string name="todo">n5</string>
 </resources>
