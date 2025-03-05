@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 }else passwordError.setVisibility(View.GONE);
 
                 Intent i = new Intent(MainActivity.this,UserPage.class);
-                //intent.putExtra("input_text", userNameSet); // Passing text
+                i.putExtra("input_text", userNameSet); // Passing userName text
                 startActivity(i);
             }
         });

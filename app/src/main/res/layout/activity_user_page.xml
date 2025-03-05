@@ -20,8 +20,8 @@
         android:layout_height="wrap_content"
         app:menu="@menu/bottom_nav_menu"
         android:background="@color/darkGrey"
-        app:itemIconTint="@color/lightRed"
-        app:itemTextColor="@color/lightRed"
+        app:itemIconTint="@color/red"
+        app:itemTextColor="@color/red"
         app:itemPaddingBottom="10dp"/>
 
 </LinearLayout>

@@ -6,20 +6,65 @@
     tools:context=".SettingsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings fragment"
-        android:layout_gravity="center"
-        android:textSize="30sp"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="long out"
-        android:id="@+id/longOut"
-        android:layout_marginTop="280dp"
-        android:layout_marginLeft="160dp"
-        />
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:background="@drawable/glow"
+        android:layout_marginTop="240dp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/t8"
+            android:src="@drawable/person"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/usernameSaver"
+            android:layout_width="260dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginStart="65dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/t7"
+            android:src="@drawable/verified"
+            android:layout_marginTop="105dp"
+            />
+        <TextView
+            android:id="@+id/verifiedMangaReader"
+            android:layout_width="260dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginStart="65dp"
+            android:textSize="25sp"
+            android:text="@string/verifiedMangaReader"
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:id="@+id/exitAcc"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/t7"
+            android:src="@drawable/exit"
+            android:layout_marginTop="185dp"
+            />
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginStart="67dp"
+            android:textSize="25sp"
+            android:text="@string/accountLongOut"
+            android:textColor="@color/white"
+            />
+
+    </FrameLayout>
 
 </FrameLayout>

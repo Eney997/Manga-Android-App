@@ -1,5 +1,7 @@
 package com.example.manga;
 
+import static android.content.Intent.getIntent;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +33,10 @@ public class UserPage extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomNavView);
         frameLayout = findViewById(R.id.frameLayout);
 
+        //take username input from mainActivity
+        Intent intent = getIntent();
+        String receivedText = intent.getStringExtra("input_text");
+
         // Set the default fragment
         if (savedInstanceState == null) {
             loadFragment(new HomeFragment(), true);
@@ -38,13 +44,19 @@ public class UserPage extends AppCompatActivity {
 
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             int itemId = item.getItemId();
+            Fragment selectedFragment;
 
-            // load the respective fragment based on the clicked item
             if (itemId == R.id.navHome) {
-                loadFragment(new HomeFragment(), false);
-            } else  {
-                loadFragment(new SettingsFragment(), false); // this fragment exists
+                selectedFragment = new HomeFragment();
+            } else {
+                // Pass username to SettingsFragment
+                selectedFragment = new SettingsFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("input_text", receivedText);
+                selectedFragment.setArguments(bundle);
             }
+
+            loadFragment(selectedFragment, false);
             return true;
         });
     }
