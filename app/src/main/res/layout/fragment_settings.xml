@@ -10,7 +10,7 @@
         android:layout_width="350dp"
         android:layout_height="280dp"
         android:background="@drawable/glow"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="150dp"
         android:layout_gravity="center_horizontal"
         tools:ignore="UselessParent">
         <ImageView
@@ -66,5 +66,13 @@
             />
 
     </FrameLayout>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="290dp"
+        android:src="@drawable/gojo"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="120dp"
+        />
 
 </FrameLayout>
