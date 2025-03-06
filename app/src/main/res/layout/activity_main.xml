@@ -15,7 +15,7 @@
         android:layout_marginStart="190dp"
         android:layout_marginTop="150dp"
         android:contentDescription="@string/mangaLine"
-        android:src="@drawable/mainlogo" />
+        android:src="@mipmap/mainlogo" />
 
     <FrameLayout
         android:id="@+id/boxForUsPas"

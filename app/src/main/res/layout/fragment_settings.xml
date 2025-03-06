@@ -70,7 +70,7 @@
     <ImageView
         android:layout_width="350dp"
         android:layout_height="290dp"
-        android:src="@drawable/gojo"
+        android:src="@mipmap/gojo"
         android:layout_marginTop="430dp"
         android:layout_marginLeft="120dp"
         />

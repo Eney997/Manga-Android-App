@@ -77,7 +77,7 @@ public class SlideViewPageAdapted extends PagerAdapter {
         switch(position)
         {
             case 0:
-                logo.setImageResource(R.drawable.luffy);
+                logo.setImageResource(R.mipmap.luffy);
                 ind1.setImageResource(R.drawable.selected);
                 ind2.setImageResource(R.drawable.unselected);
                 ind3.setImageResource(R.drawable.unselected);
@@ -88,7 +88,7 @@ public class SlideViewPageAdapted extends PagerAdapter {
             break;
 
             case 1:
-                logo.setImageResource(R.drawable.ichigo);
+                logo.setImageResource(R.mipmap.ichigo);
                 ind1.setImageResource(R.drawable.unselected);
                 ind2.setImageResource(R.drawable.selected);
                 ind3.setImageResource(R.drawable.unselected);
@@ -98,7 +98,7 @@ public class SlideViewPageAdapted extends PagerAdapter {
                 break;
 
             case 2:
-                logo.setImageResource(R.drawable.naruto);
+                logo.setImageResource(R.mipmap.naruto);
                 ind1.setImageResource(R.drawable.unselected);
                 ind2.setImageResource(R.drawable.unselected);
                 ind3.setImageResource(R.drawable.selected);

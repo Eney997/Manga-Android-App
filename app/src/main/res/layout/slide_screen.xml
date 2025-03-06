@@ -10,7 +10,7 @@
         android:layout_width="350dp"
         android:layout_height="250dp"
         android:contentDescription="@string/n1"
-        android:src="@drawable/luffy"
+        android:src="@mipmap/luffy"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
         />

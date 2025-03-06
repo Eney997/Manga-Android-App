@@ -19,6 +19,38 @@
     <string name="verifiedMangaReader">Verified manga reader</string>
     <string name="accountLongOut">Long Out</string>
 
+    <string-array name="fullNames">
+        <item>anime!</item>
+        <item>anime2</item>
+        <item>anime3</item>
+        <item>anime5</item>
+        <item>anime6</item>
+        <item>anime7</item>
+        <item>anime8</item>
+        <item>anime9</item>
+        <item>anime10</item>
+        <item>anime!!</item>
+        <item>anime12</item>
+        <item>anime13</item>
+        <item>anime14</item>
+    </string-array>
+
+    <string-array name="lilDescriptions">
+        <item>anime!anime!anime!anime!anime</item>
+        <item>anime2anime2anime2anime2anime2</item>
+        <item>anime3anime3anime3anime3anime3</item>
+        <item>anime5anime5anime5anime5</item>
+        <item>anime6anime6anime6anime6</item>
+        <item>anime7anime7anime7anime7</item>
+        <item>anime8anime8anime8anime8</item>
+        <item>anime9anime8anime8anime8</item>
+        <item>anime10anime8anime8anime8</item>
+        <item>anime11anime8anime8anime8</item>
+        <item>anime12anime8anime8anime8</item>
+        <item>anime13anime8anime8anime8</item>
+        <item>anime14anime8anime8anime8</item>
+    </string-array>
+
     <string name="n1" />
     <string name="n2" />
     <string name="n3" />

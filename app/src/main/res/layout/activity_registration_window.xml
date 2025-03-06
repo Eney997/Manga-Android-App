@@ -17,7 +17,7 @@
         android:layout_marginStart="110dp"
         android:layout_marginTop="80dp"
         android:contentDescription="@string/todo"
-        android:src="@drawable/registrationimage"/>
+        android:src="@mipmap/registrationimage"/>
 
     <GridLayout
         android:layout_width="wrap_content"
