@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements RviewInterface {
 
     ArrayList<Model> models = new ArrayList<>();
     int[] modelImages = {R.mipmap.gojo, R.mipmap.naruto, R.mipmap.luffy, R.mipmap.ichigo, R.mipmap.mainlogo,
@@ -30,7 +30,7 @@ public class HomeFragment extends Fragment {
 
         setUp(); // populate data
 
-        Radapter radapter = new Radapter(requireContext(), models);
+        Radapter radapter = new Radapter(requireContext(), models,this);
         recyclerView.setAdapter(radapter);
 
         recyclerView.setLayoutManager(new GridLayoutManager(requireContext(), 2));
@@ -46,6 +46,16 @@ public class HomeFragment extends Fragment {
         for (int i = 0; i < names.length; i++) {
             models.add(new Model(names[i], modelImages[i], descriptions[i]));
         }
+    }
+
+
+    @Override
+    public void onItemClick(int position) {
+        Intent i = new Intent(requireContext(), HomeFragmentTwo.class);
+        i.putExtra("Name", models.get(position).getName());
+        i.putExtra("Image", models.get(position).getImage());
+        i.putExtra("Description", models.get(position).getDescription());
+        startActivity(i);
     }
 
 

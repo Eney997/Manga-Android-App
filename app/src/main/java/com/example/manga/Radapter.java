@@ -14,10 +14,12 @@ import java.util.ArrayList;
 
 public class Radapter extends RecyclerView.Adapter<Radapter.MyViewHolder> {
 
+    private static RviewInterface rviewInterface;
     Context context;
     ArrayList<Model> models;
-    public Radapter(Context context, ArrayList<Model> models)
+    public Radapter(Context context, ArrayList<Model> models,RviewInterface rviewInterface)
     {
+        Radapter.rviewInterface = rviewInterface;
         this.context = context;
         this.models = models;
     }
@@ -28,7 +30,7 @@ public class Radapter extends RecyclerView.Adapter<Radapter.MyViewHolder> {
     public Radapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(context);
         View view = layoutInflater.inflate(R.layout.recycler_view_row,parent,false);
-        return new MyViewHolder(view);
+        return new MyViewHolder(view,rviewInterface);
     }
 
     @Override
@@ -46,13 +48,26 @@ public class Radapter extends RecyclerView.Adapter<Radapter.MyViewHolder> {
     {
         ImageView imageView;
         TextView textView;
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder(@NonNull View itemView,RviewInterface rviewInterface) {
             super(itemView);
 
             imageView = itemView.findViewById(R.id.imageView);
             textView = itemView.findViewById(R.id.textView);
 
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if(rviewInterface != null)
+                    {
+                        int getPos = getAdapterPosition();
 
+                        if(getPos != RecyclerView.NO_POSITION)
+                        {
+                            rviewInterface.onItemClick(getPos);
+                        }
+                    }
+                }
+            });
         }
     }
 }
