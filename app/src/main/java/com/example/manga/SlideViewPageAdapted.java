@@ -83,7 +83,7 @@ public class SlideViewPageAdapted extends PagerAdapter {
                 ind3.setImageResource(R.drawable.unselected);
 
                 title.setText("About App");
-                titleTwo.setText("Discover and read popular mangas in one place! Stay updated, explore genres,and enjoy a seamless reading experience. Your manga journey starts here!");
+                titleTwo.setText("Discover and read popular anime information in one place! Stay updated, explore various genres, and enjoy a seamless streaming experience. Your anime adventure starts here!");
                 arrowLeft.setVisibility(View.GONE);
             break;
 
@@ -94,7 +94,7 @@ public class SlideViewPageAdapted extends PagerAdapter {
                 ind3.setImageResource(R.drawable.unselected);
 
                 title.setText("Manga");
-                titleTwo.setText("Manga is said to have been born in 1814. Back then, Hokusai Katsuyoshi sketched a series of scenes from daily life… whimsical stories: manga in Japanese. In 1902, Kittiwakes Rakuten published the first modern manga with four boxes per page and typed texts.");
+                titleTwo.setText("Anime traces its origins back to the early 20th century, with Japan’s first animated works appearing in 1917. Influenced by Western animation, pioneers like Ōten Shimokawa and Jun'ichi Kōuchi created short silent films. In 1963, Osamu Tezuka revolutionized the industry with Astro Boy, Japan’s first televised anime series, setting the foundation for the vibrant and diverse anime culture we know today.");
                 break;
 
             case 2:

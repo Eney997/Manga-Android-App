@@ -2,8 +2,8 @@
     <string name="app_name">Manga</string>
     <string name="aboutApp">About App</string>
     <string name="btnGetStarted">Get Started</string>
-    <string name="firstDescription">Discover and read popular mangas in one place! Stay updated, explore genres,
-                                    and enjoy a seamless reading experience. Your manga journey starts here!</string>
+    <string name="firstDescription">Discover and read popular anime information in one place! Stay updated, explore various genres,
+                                    and enjoy a seamless streaming experience. Your anime adventure starts here!</string>
     <string name="userName">Enter UserName</string>
     <string name="password">Enter Password</string>
     <string name="logIn">Log in</string>
@@ -20,35 +20,19 @@
     <string name="accountLongOut">Long Out</string>
 
     <string-array name="fullNames">
-        <item>anime!</item>
-        <item>anime2</item>
-        <item>anime3</item>
-        <item>anime5</item>
-        <item>anime6</item>
-        <item>anime7</item>
-        <item>anime8</item>
-        <item>anime9</item>
-        <item>anime10</item>
-        <item>anime!!</item>
-        <item>anime12</item>
-        <item>anime13</item>
-        <item>anime14</item>
+        <item>Vampire Hunter D: Bloodlust</item>
+        <item>Hellsing Ultimate</item>
+        <item>Berserk</item>
+        <item>Bleach</item>
+        <item>One Piece</item>
     </string-array>
 
     <string-array name="lilDescriptions">
-        <item>anime!anime!anime!anime!anime</item>
-        <item>anime2anime2anime2anime2anime2</item>
-        <item>anime3anime3anime3anime3anime3</item>
-        <item>anime5anime5anime5anime5</item>
-        <item>anime6anime6anime6anime6</item>
-        <item>anime7anime7anime7anime7</item>
-        <item>anime8anime8anime8anime8</item>
-        <item>anime9anime8anime8anime8</item>
-        <item>anime10anime8anime8anime8</item>
-        <item>anime11anime8anime8anime8</item>
-        <item>anime12anime8anime8anime8</item>
-        <item>anime13anime8anime8anime8</item>
-        <item>anime14anime8anime8anime8</item>
+        <item>Billed by the Japanese producers as a "dark future science-fiction romance", the film, like the novel before it, is set in the year 12,090 AD, in a post-nuclear holocaust world where a young woman hires a mysterious half-vampire, half-human vampire hunter to protect her from a powerful vampire lord.</item>
+        <item>Summaries. The vampire Alucard, his master Sir Integra Fairbrook Wingates Hellsing, and his newly sired ward Seras Victoria, try to protect England from a war-crazed SS-Major who seeks to start an eternal war with his vampire army.</item>
+        <item>The series follows Guts\' journey seeking revenge on Griffith, who betrayed him and sacrificed his comrades to become a powerful demonic being. Miura premiered a prototype of Berserk in 1988.</item>
+        <item>Bleach (stylized in all caps) is a Japanese manga series written and illustrated by Tite Kubo. It follows the adventures of a teenager Ichigo Kurosaki, who obtains the powers of a Soul Reaper—a death personification similar to a Grim Reaper—from another Soul Reaper, Rukia Kuchiki.</item>
+        <item>ONE PIECE is a legendary high-seas quest unlike any other. Luffy is a young adventurer who has longed for a life of freedom ever since he can remember. He sets off from his small village on a perilous journey to find the legendary fabled treasure, ONE PIECE, to become King of the Pirates!</item>
     </string-array>
 
     <string name="n1" />

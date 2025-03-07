@@ -5,7 +5,6 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -17,9 +16,7 @@ import java.util.ArrayList;
 public class HomeFragment extends Fragment implements RviewInterface {
 
     ArrayList<Model> models = new ArrayList<>();
-    int[] modelImages = {R.mipmap.gojo, R.mipmap.naruto, R.mipmap.luffy, R.mipmap.ichigo, R.mipmap.mainlogo,
-            R.mipmap.gojo, R.mipmap.naruto, R.mipmap.luffy, R.mipmap.ichigo, R.mipmap.mainlogo,
-            R.mipmap.gojo, R.mipmap.naruto, R.mipmap.luffy };
+    int[] modelImages = {R.mipmap.vhd, R.mipmap.helul, R.mipmap.berserk, R.mipmap.bleach, R.mipmap.lfy};
     RecyclerView recyclerView;
 
     @Override
@@ -37,7 +34,6 @@ public class HomeFragment extends Fragment implements RviewInterface {
 
         return view;
     }
-
 
     private void setUp() {
         String[] names = getResources().getStringArray(R.array.fullNames);

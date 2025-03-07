@@ -12,12 +12,12 @@
 
     <ImageView
         android:id="@+id/grlImage"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="60dp"
         android:contentDescription="@string/todo"
-        android:src="@mipmap/registrationimage"/>
+        android:src="@mipmap/kilua"/>
 
     <GridLayout
         android:layout_width="wrap_content"

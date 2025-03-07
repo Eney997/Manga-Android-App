@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class HomeFragmentTwo extends AppCompatActivity {
 
-    private Button btnGoback;
+    private ImageView imgGoback;
     private String name,description;
     private int image;
 
@@ -35,9 +35,9 @@ public class HomeFragmentTwo extends AppCompatActivity {
         imageView.setImageResource(image);
         descriptionTextView.setText(description);
 
-        btnGoback = findViewById(R.id.gotomainrecview);
+        imgGoback = findViewById(R.id.gotomainrecview);
 
-        btnGoback.setOnClickListener(new View.OnClickListener() {
+        imgGoback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
