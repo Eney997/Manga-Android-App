@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".SettingsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <FrameLayout
         android:layout_width="350dp"
         android:layout_height="280dp"
         android:background="@drawable/glow"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="130dp"
         android:layout_gravity="center_horizontal"
         tools:ignore="UselessParent">
         <ImageView
@@ -69,10 +68,11 @@
 
     <ImageView
         android:layout_width="230dp"
-        android:layout_height="290dp"
+        android:layout_height="270dp"
+        android:contentDescription="@string/t14"
         android:src="@mipmap/gojolongout"
-        android:layout_marginTop="430dp"
-        android:layout_marginStart="160dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="170dp"
         />
 
 </FrameLayout>
